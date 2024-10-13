@@ -2,3 +2,5 @@ Scrapy
 scrapy-user-agents
 twisted
 scrapy-rotating-proxies
+pandas
+xlsxwriter
