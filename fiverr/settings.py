@@ -13,12 +13,12 @@ SPIDER_MODULES = ["fiverr.spiders"]
 NEWSPIDER_MODULE = "fiverr.spiders"
 
 
-FEEDS = {
-    'C:/PROYECTO/output.csv': {
-        'format': 'csv',
-        'overwrite': True,
-    },
-}
+# FEEDS = {
+#     'C:/PROYECTO/output.csv': {
+#         'format': 'csv',
+#         'overwrite': True,
+#     },
+# }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "joaki (+http://www.yourdomain.com)"
