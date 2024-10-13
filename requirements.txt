@@ -1,4 +1,4 @@
-Scrapy
+scrapy
 scrapy-user-agents
 twisted
 scrapy-rotating-proxies
