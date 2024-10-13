@@ -14,8 +14,9 @@ NEWSPIDER_MODULE = "fiverr.spiders"
 
 
 FEEDS = {
-    'output.csv': {
-        'format': 'csv', # Si deseas sobrescribir el archivo cada vez que se ejecute
+    'C:/PROYECTO/output.csv': {
+        'format': 'csv',
+        'overwrite': True,
     },
 }
 
@@ -74,15 +75,15 @@ COOKIES_ENABLED = False
 
 DOWNLOADER_MIDDLEWARES = {
     'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
-    # 'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
-    # 'rotating_proxies.middlewares.BanDetectionMiddleware': 620
+    'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+    'rotating_proxies.middlewares.BanDetectionMiddleware': 620
 }
 
 
 # pongo esto en el archivo settings.py
 
 
-# ROTATING_PROXY_LIST_PATH = r'C:\Users\joaqu\Desktop\wegow\ENTORNOSCAPY\joako.txt'
+ROTATING_PROXY_LIST_PATH = 'joako.txt'
 
 
 # RANDOMIZE_DOWNLOAD_DELAY = True
